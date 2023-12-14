@@ -20,47 +20,46 @@
         <h3>Find pages with...</h3>
 
         <div class="form">
-            <form action="https://www.google.com/advanced_search" method="get">
+            <form action="https://www.google.com/search" method="get">
                 
                 <div class="block">
                     <div class="text">
                         <label>All these words: </label>
                     </div>
                     
-                    <input type="text" value="">
+                    <input type="text" name="as_q">
                 </div>
                 <div class="block">
                     <div class="text">
                         <label>This exact word or phrase: </label>
                     </div>
                     
-                    <input type="text" value="">
+                    <input type="text" name="as_epq">
                 </div>
                 <div class="block">
                     <div class="text">
                         <label>Any of these words: </label>
                     </div>
 
-                    <input type="text" value="">
+                    <input type="text" name="as_oq">
                 </div>
                 <div class="block">
                     <div class="text">
                         <label>None of these words: </label>
                     </div>
 
-                    <input type="text" value="">
+                    <input type="text" name="as_eq">
                 </div>
                 <div class="block">
                     <div class="text">
                         <label>Numbers ranging from: </label>
                     </div>
                     
-                    <input type="number" value=""> to <input type="number" value="">
+                    <input type="number" name="as_nlo"> to <input type="number" value="as_nhi">
                 </div>
 
-                <input type="submit">
+                <input type="submit" value="Advanced Search">
             </form>
         </div>
-        
     </body>
 </html>
