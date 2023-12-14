@@ -1,11 +1,11 @@
 .links {
-    margin-left: 50px;
+    margin-left: calc(50vw - 200px);
     margin-top: 10px;
     margin-bottom: 50px;
 }
 
-a {
-    margin-right: 50px;
+a[href="image-search.html"]{
+    margin-right: 180px;
 }
 
 .form {
@@ -13,7 +13,7 @@ a {
 }
 
 input[type="text"]{
-    width: 500px;
+    width: 80vw;
     height: 30px;
     font-size: 21px;
     font-family: 'Times New Roman', Times, serif;
@@ -21,10 +21,11 @@ input[type="text"]{
 }
 
 input[type="submit"]{
-    margin-top: -50px;
+    margin-top: 5vh;
     height: 40px;
-    margin-left: 10px;
     border-radius: 10px;
+    width: 30vw;
+    margin-left: calc(50vw - 25vw)
 }
 
 input[type="submit"]:hover{
@@ -35,4 +36,5 @@ input[type="submit"]:hover{
 img {
     width: 400px;
     margin-left: calc(50vw - 200px); /* Keeps the image on the center of the screen */
+    margin-top: 20px;
 }
