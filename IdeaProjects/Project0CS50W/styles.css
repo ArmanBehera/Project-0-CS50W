@@ -4,7 +4,7 @@
     margin-bottom: 50px;
 }
 
-a[href="image-search.html"]{
+.left-link{
     margin-right: 180px;
 }
 
@@ -25,11 +25,12 @@ input[type="submit"]{
     height: 40px;
     border-radius: 10px;
     width: 30vw;
-    margin-left: calc(50vw - 25vw)
+    margin-left: calc(50vw - 25vw);
+    background-color: #25adfc;
 }
 
 input[type="submit"]:hover{
-    background-color: #A9A9A9;
+    background-color: #1693f9;
     height: 42px;
 }
 
