@@ -1,11 +1,9 @@
 .links {
-    margin-left: calc(50vw - 200px);
-    margin-top: 10px;
-    margin-bottom: 50px;
+    margin-left: calc(100vw - 350px);
 }
 
 .left-link{
-    margin-right: 180px;
+    margin-right: 100px;
 }
 
 .form {
@@ -25,7 +23,7 @@ input[type="submit"]{
     width: 30vw;
     height: 40px;
     border-radius: 10px;
-    margin-left: calc(50vw - 25vw);
+    margin-left: 25vw;
     background-color: #25adfc;
 }
 
